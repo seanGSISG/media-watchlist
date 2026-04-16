@@ -40,6 +40,7 @@ If the user gives a vague title, search to confirm the correct title, year, and 
 | IMDB | Yes | Full URL: `https://www.imdb.com/title/ttXXXXXXX/` |
 | Trailer | Yes | YouTube link to official trailer. Search for `<Title> <Year> official trailer` |
 | Status | Yes | `Queued`, `Watched`, `Skipped` |
+| DL | Yes | `✅` when downloaded, blank otherwise |
 | Rating | No | User's rating after watching (1-10) |
 | Notes | No | Brief thoughts or who recommended it |
 
@@ -56,6 +57,7 @@ If the user gives a vague title, search to confirm the correct title, year, and 
 | IMDB | Yes | Full URL: `https://www.imdb.com/title/ttXXXXXXX/` |
 | Trailer | Yes | YouTube link to official/season 1 trailer |
 | Status | Yes | `Queued`, `Watching`, `Completed`, `Dropped` |
+| DL | Yes | `✅` when downloaded, blank otherwise |
 | Rating | No | User's rating (1-10) |
 | Notes | No | Brief thoughts, current season, who recommended it |
 
@@ -73,6 +75,7 @@ If the user gives a vague title, search to confirm the correct title, year, and 
 | Length | Yes | Runtime in hours (e.g. `45h 30m`) |
 | Goodreads | Yes | Full URL to Goodreads page |
 | Status | Yes | `Queued`, `Listening`, `Completed`, `DNF` |
+| DL | Yes | `✅` when downloaded, blank otherwise |
 | Rating | No | User's rating (1-10) |
 | Notes | No | Brief thoughts, narrator quality, who recommended it |
 

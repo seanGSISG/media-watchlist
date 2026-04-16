@@ -14,6 +14,7 @@ When adding a movie, you MUST web search to fill in every required field. Never 
 | IMDB | URL | **Web search** `<Title> <Year> IMDB` — use full `https://www.imdb.com/title/ttXXXXXXX/` URL |
 | Trailer | URL | **Web search** `<Title> <Year> official trailer YouTube` — use the official trailer, not fan edits or teasers |
 | Status | Enum | Default `Queued`. Options: `Queued`, `Watched`, `Skipped` |
+| DL | Emoji | `✅` when downloaded via torrent, blank otherwise. Set by the download-movie-tv skill |
 
 ## Optional Columns
 

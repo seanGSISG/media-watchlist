@@ -58,18 +58,20 @@ Default Status to `Queued` unless the user specified otherwise.
 
 **Movies** — append to `movies/watchlist.md`:
 ```
-| YYYY-MM-DD | Title | Year | Genre | Director | [IMDB](url) | [Trailer](url) | Queued | | |
+| YYYY-MM-DD | Title | Year | Genre | Director | [IMDB](url) | [Trailer](url) | Queued | | | |
 ```
 
 **TV Shows** — append to `shows/watchlist.md`:
 ```
-| YYYY-MM-DD | Title | Year | Seasons | Genre | Network | [IMDB](url) | [Trailer](url) | Queued | | |
+| YYYY-MM-DD | Title | Year | Seasons | Genre | Network | [IMDB](url) | [Trailer](url) | Queued | | | |
 ```
 
 **Audiobooks** — append to `audiobooks/watchlist.md`:
 ```
-| YYYY-MM-DD | Title | Author | Year | Narrator | Genre | Series | Length | [Goodreads](url) | Queued | | |
+| YYYY-MM-DD | Title | Author | Year | Narrator | Genre | Series | Length | [Goodreads](url) | Queued | | | |
 ```
+
+The DL column (after Status) starts blank — it gets set to `✅` when downloaded via the download skills.
 
 Use markdown link syntax `[IMDB](url)` for URLs to keep the table readable on GitHub.
 

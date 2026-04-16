@@ -90,8 +90,8 @@ curl -s -b /tmp/qbt_cookie -X POST "http://localhost:1337/api/v2/torrents/add" \
 
 After grabbing a torrent, check if the title exists in the watchlist:
 
-- **If found in `movies/watchlist.md` or `shows/watchlist.md`**: update Status to `Watched` (movie) or `Watching` (show) and add a note like "Downloaded 2160p REMUX"
-- **If not in watchlist**: offer to add it using the add-media skill workflow (web search for IMDB, trailer, etc.)
+- **If found in `movies/watchlist.md` or `shows/watchlist.md`**: set the DL column to `✅` and add a note like "Downloaded 2160p REMUX"
+- **If not in watchlist**: offer to add it using the add-media skill workflow (web search for IMDB, trailer, etc.), and set DL to `✅` since it's being downloaded
 
 Commit and push the watchlist update:
 ```bash

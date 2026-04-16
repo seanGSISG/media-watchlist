@@ -68,8 +68,8 @@ Use `mam-qbt_add_from_mam` with `torrent_id` as an **integer** (not string).
 
 After downloading, check if the title exists in `audiobooks/watchlist.md`:
 
-- **If found**: update Status to `Listening` and add a note with the format (e.g., "Downloaded m4b, narrated by X")
-- **If not in watchlist**: add it using the full metadata workflow — web search for Goodreads URL, narrator, runtime, etc., then append to `audiobooks/watchlist.md`
+- **If found**: set the DL column to `✅` and add a note with the format (e.g., "Downloaded m4b, narrated by X")
+- **If not in watchlist**: add it using the full metadata workflow — web search for Goodreads URL, narrator, runtime, etc., append to `audiobooks/watchlist.md`, and set DL to `✅` since it's being downloaded
 
 Also update the audiobook recommender library:
 `~/.claude/skills/audiobook-recommender/library.md`

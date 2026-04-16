@@ -15,6 +15,7 @@ When adding an audiobook, you MUST web search to fill in every required field. N
 | Length | `XXh YYm` | **Web search** audiobook runtime from Audible listing |
 | Goodreads | URL | **Web search** `<Title> <Author> Goodreads` — use full `https://www.goodreads.com/book/show/XXXXX` URL |
 | Status | Enum | Default `Queued`. Options: `Queued`, `Listening`, `Completed`, `DNF` |
+| DL | Emoji | `✅` when downloaded via MAM, blank otherwise. Set by the download-audiobook skill |
 
 ## Optional Columns
 

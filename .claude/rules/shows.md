@@ -15,6 +15,7 @@ When adding a TV show, you MUST web search to fill in every required field. Neve
 | IMDB | URL | **Web search** `<Title> TV series IMDB` — use full `https://www.imdb.com/title/ttXXXXXXX/` URL |
 | Trailer | URL | **Web search** `<Title> official trailer YouTube` — prefer the Season 1 / series premiere trailer |
 | Status | Enum | Default `Queued`. Options: `Queued`, `Watching`, `Completed`, `Dropped` |
+| DL | Emoji | `✅` when downloaded via torrent, blank otherwise. Set by the download-movie-tv skill |
 
 ## Optional Columns
 
