@@ -1,2 +1,5 @@
 # User-specific Claude settings
 .claude/settings.local.json
+
+# MCP config (contains API keys)
+.mcp.json

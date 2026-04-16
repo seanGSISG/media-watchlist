@@ -15,6 +15,8 @@ Personal media tracking repo. Three categories: movies, shows, audiobooks.
 | Audiobook column specs | `.claude/rules/audiobooks.md` | Adding/editing audiobooks |
 | Add media workflow | `.claude/skills/add-media/SKILL.md` | Adding new entries |
 | Browse/search/stats | `.claude/skills/browse-watchlist/SKILL.md` | Querying the lists |
+| Download movie/TV | `.claude/skills/download-movie-tv/SKILL.md` | IPT/PTP → qBittorrent → Jellyfin |
+| Download audiobook | `.claude/skills/download-audiobook/SKILL.md` | MAM → qBittorrent → Audiobookshelf |
 
 </progressive_disclosure>
 
