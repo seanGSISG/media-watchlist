@@ -8,7 +8,7 @@ This is a personal media tracking repository. Every interaction likely involves 
 - **Markdown link syntax** — always use `[Label](url)` in table cells to keep tables readable on GitHub.
 - **Newest first** — new rows go at the top of the table, directly below the header row.
 - **No duplicates** — before adding, scan the target `watchlist.md` for the title. If it exists, tell the user.
-- **Commit after every change** — each add or update gets a commit and push so the GitHub repo stays current.
+- **Auto commit and push** — after every add, update, or remove, automatically `git commit` and `git push` to main without asking. Never wait for confirmation.
 
 ## Status Values
 
