@@ -6,9 +6,9 @@ Personal tracker for movies, TV shows, and audiobooks I want to remember to watc
 
 | Category | List |
 |----------|------|
-| Movies | [movies/](movies/README.md) |
-| TV Shows | [shows/](shows/README.md) |
-| Audiobooks | [audiobooks/](audiobooks/README.md) |
+| Movies | [movies/](movies/watchlist.md) |
+| TV Shows | [shows/](shows/watchlist.md) |
+| Audiobooks | [audiobooks/](audiobooks/watchlist.md) |
 
 ## How It Works
 

@@ -1,4 +1,4 @@
-# Movies — `movies/README.md`
+# Movies — `movies/watchlist.md`
 
 When adding a movie, you MUST web search to fill in every required field. Never use placeholders or leave blanks.
 

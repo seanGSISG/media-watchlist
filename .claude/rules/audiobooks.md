@@ -1,4 +1,4 @@
-# Audiobooks — `audiobooks/README.md`
+# Audiobooks — `audiobooks/watchlist.md`
 
 When adding an audiobook, you MUST web search to fill in every required field. Never use placeholders or leave blanks.
 

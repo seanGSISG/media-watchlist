@@ -1,4 +1,4 @@
-# TV Shows — `shows/README.md`
+# TV Shows — `shows/watchlist.md`
 
 When adding a TV show, you MUST web search to fill in every required field. Never use placeholders or leave blanks.
 

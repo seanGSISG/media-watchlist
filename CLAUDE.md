@@ -10,7 +10,7 @@ If the user gives a vague title, search to confirm the correct title, year, and 
 
 <progressive_disclosure>
 
-### Movies — `movies/README.md`
+### Movies — `movies/watchlist.md`
 
 | Column | Required | Notes |
 |--------|----------|-------|
@@ -25,7 +25,7 @@ If the user gives a vague title, search to confirm the correct title, year, and 
 | Rating | No | User's rating after watching (1-10) |
 | Notes | No | Brief thoughts or who recommended it |
 
-### TV Shows — `shows/README.md`
+### TV Shows — `shows/watchlist.md`
 
 | Column | Required | Notes |
 |--------|----------|-------|
@@ -41,7 +41,7 @@ If the user gives a vague title, search to confirm the correct title, year, and 
 | Rating | No | User's rating (1-10) |
 | Notes | No | Brief thoughts, current season, who recommended it |
 
-### Audiobooks — `audiobooks/README.md`
+### Audiobooks — `audiobooks/watchlist.md`
 
 | Column | Required | Notes |
 |--------|----------|-------|
