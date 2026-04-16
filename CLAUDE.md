@@ -2,6 +2,22 @@
 
 Personal media tracking repo. Three categories: movies, shows, audiobooks.
 
+## Quick Reference
+
+<progressive_disclosure>
+<behavior>Read referenced files ONLY when the task requires that domain knowledge.</behavior>
+
+| Domain | File | When to Read |
+|--------|------|-------------|
+| Repo-wide conventions | `.claude/rules/general.md` | Any watchlist operation |
+| Movie column specs | `.claude/rules/movies.md` | Adding/editing movies |
+| TV show column specs | `.claude/rules/shows.md` | Adding/editing shows |
+| Audiobook column specs | `.claude/rules/audiobooks.md` | Adding/editing audiobooks |
+| Add media workflow | `.claude/skills/add-media/SKILL.md` | Adding new entries |
+| Browse/search/stats | `.claude/skills/browse-watchlist/SKILL.md` | Querying the lists |
+
+</progressive_disclosure>
+
 ## Adding Entries
 
 When the user asks to add a movie, show, or audiobook, follow the rules for that media type below. Always set **Date Added** to today's date (`YYYY-MM-DD`). Default **Status** to `Queued` unless told otherwise.
